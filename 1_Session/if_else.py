@@ -4,3 +4,8 @@ else:
     print("2 is greater")
 
 print("hello") ; print("hi") # semicolon is used to separate multiple statements
+
+#type conversion
+x = 10
+y = "stc"
+print(str(x) + y)
