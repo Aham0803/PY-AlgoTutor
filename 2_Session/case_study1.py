@@ -16,6 +16,5 @@ def calculate_quota(total_marks):
     else :
         return "sports quota is not applicable."
 
-calculate_quota(marks)
-print (f'your total marks are {marks} , and your sports quota status is {sports}.')
-print(f'your status is {calculate_quota(marks)}')
+# calculate_quota(marks)
+print(f'your total marks are {marks} , your status is {calculate_quota(marks)} and your sports quota status is {sports}')
