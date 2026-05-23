@@ -11,4 +11,7 @@ for i in range(5):
     for j in range(i):
         print(i,end="")
     print()
+
+
+# formula for such pattern = [(10**n//9)*n]
        
