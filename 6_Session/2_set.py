@@ -32,6 +32,16 @@
 # print(b)
 
 # remove every element in the set
-a = set([1,2,3,4,5])
-a.clear()
-print(a)
+# a = set([1,2,3,4,5])
+# a.clear()
+# print(a)
+
+set1 = {1,2,3}
+set2 = {3,4,5}
+
+print(set1 | set2) #union of set1 and set 2
+print( set1 & set2) # Intersection of set1 and set2
+print(set1 - set2) # Diffrence of set1 and set 2
+
+# for symmetric elements a-(a&b) + b-(a&b)
+# symmetric elements are those which are not common in a and b
