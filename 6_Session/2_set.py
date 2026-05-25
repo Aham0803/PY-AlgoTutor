@@ -44,4 +44,4 @@ print( set1 & set2) # Intersection of set1 and set2
 print(set1 - set2) # Diffrence of set1 and set 2
 
 # for symmetric elements a-(a&b) + b-(a&b)
-# symmetric elements are those which are not common in a and b
+# symmetric elements are those which are not common in a and b . it is represented by ^ 
