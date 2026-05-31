@@ -79,6 +79,6 @@ if __name__ == "__main__":
     print("age" in hash_table)
     print(len(hash_table))
 
-  
+print("hello")
 
         
