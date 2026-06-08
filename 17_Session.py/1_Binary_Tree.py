@@ -44,3 +44,6 @@ def postOrder(node): ### Left Right Root
     postOrder(node.left)
     postOrder(node.right)
     print(node.value, end=",")
+
+
+    print("hi")
